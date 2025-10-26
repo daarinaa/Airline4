@@ -15,7 +15,8 @@ Swagger UI: http://127.0.0.1:8000/docs
 ReDoc: http://127.0.0.1:8000/redoc
 
 Примеры cURL:
-bash# Зарегистрированные пассажиры
+```powershell
+Зарегистрированные пассажиры
 curl http://127.0.0.1:8000/passengers/registered
 
 Доступные рейсы
@@ -30,3 +31,4 @@ curl -X POST http://127.0.0.1:8000/passengers \
     "contact_info": "sidorov@mail.ru",
     "status": "registered"
   }'
+```
