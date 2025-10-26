@@ -3,7 +3,7 @@
 
 СУБД: Microsoft SQL Server Express
 
-text## Запуск:
+Запуск:
 ```powershell
 .\venv\Scripts\activate
 python seed.py
