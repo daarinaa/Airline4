@@ -18,10 +18,10 @@ ReDoc: http://127.0.0.1:8000/redoc
 bash# Зарегистрированные пассажиры
 curl http://127.0.0.1:8000/passengers/registered
 
-# Доступные рейсы
+Доступные рейсы
 curl http://127.0.0.1:8000/flights/available
 
-# Создать пассажира
+Создать пассажира
 curl -X POST http://127.0.0.1:8000/passengers \
   -H "Content-Type: application/json" \
   -d '{
@@ -30,6 +30,3 @@ curl -X POST http://127.0.0.1:8000/passengers \
     "contact_info": "sidorov@mail.ru",
     "status": "registered"
   }'
-
-Дамп БД:
-AirlineDB_dump.sql — содержит схему и данные.
