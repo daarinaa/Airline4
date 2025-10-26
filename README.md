@@ -10,7 +10,6 @@ python seed.py
 uvicorn main:app --reload
 ```
 
-API Документация:
 Swagger UI: http://127.0.0.1:8000/docs
 ReDoc: http://127.0.0.1:8000/redoc
 
